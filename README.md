@@ -26,14 +26,30 @@ The purpose of this Active Directory project was aimed to explore and practice A
 
 ## step 3 Settings for the Domain Controller
 Setting the network to NAT Network for the project
+![Image](https://github.com/user-attachments/assets/e58eb0bb-3e99-4f2a-bade-c84a90d691b4)
 
 Adding all the machines to this NAT Network
+![Image](https://github.com/user-attachments/assets/3349fe97-1a1e-4ced-91b3-f104ca75c00a)
+
+![Image](https://github.com/user-attachments/assets/78ff12b2-2238-4148-a7e5-19451bc804b6)
+
 
 ## Step 4: Install Active Directory Domain Services
-* From the Server Manager, select Add Roles and Features and add the reason why RAS/NAT needs to be installed is so that the Windows 10 client can be on the private virtual 
-  network but still be able to access the internet through the domain controller.
-* The Add Roles and Features tab allows access to the AD DS
-* After choosing Active Directory Domain Services this will pop up
+* From the Server Manager, select Add Roles and Features and add the reason why RAS/NAT needs to be installed is so that the Windows 10 client can be on the private virtual.
+
+![Image](https://github.com/user-attachments/assets/5f80d2ca-5417-42cc-979b-0858919d7531)
+
+![Image](https://github.com/user-attachments/assets/7901259f-d47f-4763-a0e6-6ed85e793f13)
+
+![Image](https://github.com/user-attachments/assets/537b427b-6b39-43d5-8f08-14beff1a3f65)
+
+
+* A post-deployment configuration is needed because the domain wasn't 
+  created before installing AD DS.
+
+ ![Image](https://github.com/user-attachments/assets/85ed6b61-dec3-4b47-8fec-e05d13f06b47)
+
+ ![Image](https://github.com/user-attachments/assets/7bad7de3-b1a7-4dda-9b58-a7c10ac25333)
 
 ## Adding computers to the domain.
   Open the file explorer and right click on this pc and select properties, scroll down and find rename this pc. Click on it and select change on rename this pc, Change the 
