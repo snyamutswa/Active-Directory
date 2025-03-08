@@ -16,7 +16,7 @@ The purpose of this Active Directory project was aimed to explore and practice A
 - Windows server [Iso](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019)
 
 ## Step 1: Creating a network diagram
-
+<img width="629" alt="Image" src="https://github.com/user-attachments/assets/d910ac1c-4c3f-44cc-83e7-5d22297f6c68" />
 
 ## Step 2: Download and Install Applications and Virtual Machines
 
