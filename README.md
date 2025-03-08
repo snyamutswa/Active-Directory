@@ -54,14 +54,14 @@ Adding all the machines to this NAT Network
  * Configure admin password
  ![Image](https://github.com/user-attachments/assets/7bad7de3-b1a7-4dda-9b58-a7c10ac25333)
 
-## Adding computers to the domain.
+## step 5 Adding computers to the domain.
   Open the file explorer and right click on this pc and select properties, scroll down and find rename this pc. Click on it and select change on rename this pc, Change the 
   computer name to and click on domain and write the name … and click ak
   ![Image](https://github.com/user-attachments/assets/974e1784-e31a-497f-a311-b6078656b0c1)
   
   After it will ask for the admin credentials, enter them and click ok.
 
-## Creating Organizationl Units (OU), Groups and Users.
+## step 6 Creating Organizationl Units (OU), Groups and Users.
   Open active directory users and computers. Click on the domain …
   First create 2 Geographical OU’s USA and AFRICA.
   Under each Geogrphical OU create 2 OU’s which are computers and user’s OU’s.
@@ -70,7 +70,7 @@ Adding all the machines to this NAT Network
   
   Under the users OU’s create create 2 user groups IT and HR and make the groupnscope global and the group type security 
 
-## Creating GPO’s
+## step 7 Creating GPO’s
   From the windows server open the GPM console. Under the forest company.local right clock on the domain and click on create a GPO in this domain.
   
   The first GPO was the password policy.
