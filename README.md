@@ -49,11 +49,13 @@ Adding all the machines to this NAT Network
 
  ![Image](https://github.com/user-attachments/assets/85ed6b61-dec3-4b47-8fec-e05d13f06b47)
 
+ * Configure admin password
  ![Image](https://github.com/user-attachments/assets/7bad7de3-b1a7-4dda-9b58-a7c10ac25333)
 
 ## Adding computers to the domain.
   Open the file explorer and right click on this pc and select properties, scroll down and find rename this pc. Click on it and select change on rename this pc, Change the 
   computer name to and click on domain and write the name … and click ak
+  ![Image](https://github.com/user-attachments/assets/974e1784-e31a-497f-a311-b6078656b0c1)
   
   After it will ask for the admin credentials, enter them and click ok.
 
@@ -61,6 +63,9 @@ Adding all the machines to this NAT Network
   Open active directory users and computers. Click on the domain …
   First create 2 Geographical OU’s USA and AFRICA.
   Under each Geogrphical OU create 2 OU’s which are computers and user’s OU’s.
+  
+  ![Image](https://github.com/user-attachments/assets/204db705-1a56-4504-ab57-42db0d93e239)
+  
   Under the users OU’s create create 2 user groups IT and HR and make the groupnscope global and the group type security 
 
 ## Creating GPO’s
@@ -69,11 +74,17 @@ Adding all the machines to this NAT Network
   The first GPO was the password policy.
   Open the GPM editor and under computer configuarations select policies, then windows settings then navigate to security and select password policy.
   
+  ![Image](https://github.com/user-attachments/assets/4629c307-2108-4998-b4c0-210efa10f9db)
+  
   The second GPO was Disable USB storage.
   Open the GPM editor and under computer configuarations select policies, then administrative templates then navigate to system and find removable storage.
+
+  ![Image](https://github.com/user-attachments/assets/998dbf0e-87c4-423b-9732-4ffe8c19984b)
   
   The third GPO was the account lockout policy.
   Open the GPM editor and under computer configuarations select policies, then windows settings then navigate to security and select account lockout policy.
+
+  ![Image](https://github.com/user-attachments/assets/fb49a56e-71f4-4d24-8265-988da17ee05c)
 
 
 
