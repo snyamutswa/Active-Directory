@@ -70,6 +70,8 @@ Adding all the machines to this NAT Network
   
   Under the users OU’s create create 2 user groups IT and HR and make the groupnscope global and the group type security 
 
+  ![Image](https://github.com/user-attachments/assets/08ffd674-9d46-4523-8204-25bc77c9b1bb)
+
 ## step 7 Creating GPO’s
   From the windows server open the GPM console. Under the forest company.local right clock on the domain and click on create a GPO in this domain.
   
