@@ -15,8 +15,6 @@ The purpose of this Active Directory project was aimed to explore and practice A
 - 2 Windows 10 [Iso](https://www.microsoft.com/en-us/software-download/windows10)
 - Windows server [Iso](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019)
 
-  ![Image](https://github.com/user-attachments/assets/f28db782-0c90-4267-84a3-4214c477028b)
-
 ## Step 1: Creating a network diagram
 <img width="629" alt="Image" src="https://github.com/user-attachments/assets/d910ac1c-4c3f-44cc-83e7-5d22297f6c68" />
 
@@ -25,6 +23,8 @@ The purpose of this Active Directory project was aimed to explore and practice A
 * Download [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * Download [Windows Server 2022 ISO](https://info.microsoft.com/ww-landing-windows-server-2022.html)
 * Download [Windows 10 ISO](https://www.microsoft.com/en-us/software-download/windows10)
+
+   ![Image](https://github.com/user-attachments/assets/f28db782-0c90-4267-84a3-4214c477028b)
 
 ## step 3 Settings for the Domain Controller
 Setting the network to NAT Network for the project
